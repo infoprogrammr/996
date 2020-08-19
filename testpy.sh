@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 a=$(pwd)
-command='java Challenge'
+command='python3 Challenge.py'
 myVar=`echo $a | sed 's/ *$//g'`
 cd /home/theia 
 echo "Executing the test.."

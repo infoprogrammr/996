@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 a=$(pwd)
-command='java Challenge'
+command='g++ Challenge.cpp && ./a.out'
 myVar=`echo $a | sed 's/ *$//g'`
 cd /home/theia 
 echo "Executing the test.."
